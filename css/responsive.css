@@ -1,7 +1,7 @@
 /* Soluzione qui */
 
 
-/* TABLET */
+/* **Modalità Tablet** (sopra i 768px) */
 
 @media screen and (min-width: 768px) {
     #topbar{
@@ -46,6 +46,50 @@
     .presentation img{
         float: left;
         margin-right: 10px;
+
+    }
+}
+
+
+
+
+/* **Modalità Desktop**(sopra i 992px) */
+
+@media screen and (min-width: 992px) {
+    #topbar{
+        justify-content: left;
+
         
+    }
+
+    .recipe-name {
+        font-size: 50px;
+    }
+
+    .recipe-origin{
+        font-size: 50px;
+    
+    }
+
+    .recipe-card{
+        display: flex;
+        
+    }
+
+    .recipe-video{
+        width: 70%;
+    }
+
+    .recipe-info{
+        width: 30%;
+    }
+
+    .btn{
+        padding: 10px;
+    }
+
+    .social-networks .label{
+        display: inline-block;
+        padding: 10px;
     }
 }
