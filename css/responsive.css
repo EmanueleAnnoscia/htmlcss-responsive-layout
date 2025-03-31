@@ -1,0 +1,37 @@
+/* Soluzione qui */
+
+
+/* TABLET */
+
+@media screen and (min-width: 768px) {
+    #topbar{
+        justify-content: left;
+
+        
+    }
+
+    .container{
+        padding: 35px;
+    }
+
+    .recipe-origin{
+        display: inline-block;
+    }
+
+    .recipe-name {
+        font-size: 35px;
+    }
+
+    .recipe-origin{
+        font-size: 35px;
+    
+    }
+
+    .quick-notes ul{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        gap: 20px;
+        justify-content: left;
+    }
+}
