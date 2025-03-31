@@ -1,5 +1,24 @@
 /* Soluzione qui */
 
+/* **Modalità Large Mobile** (576px) */
+
+@media screen and (min-width: 576px) {
+    .presentation img{
+        float: left;
+        margin-right: 10px;
+
+    }
+
+    .social-networks{
+        display: flex;
+        flex-wrap: wrap;  /* scelta di flex wrap poichè il bottone youtube veniva tasgliato*/
+    }
+
+    .btn{
+        padding: 10px 50px;
+    }
+}
+
 
 /* **Modalità Tablet** (sopra i 768px) */
 
