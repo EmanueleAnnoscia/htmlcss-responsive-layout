@@ -34,4 +34,18 @@
         gap: 20px;
         justify-content: left;
     }
+
+    .btn{
+        padding: 10px 50px;
+    }
+
+    .ads{
+        display: block;
+    }
+
+    .presentation img{
+        float: left;
+        margin-right: 10px;
+        
+    }
 }
