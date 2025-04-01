@@ -47,6 +47,8 @@
     
     }
 
+    
+
     .quick-notes ul{
         display: flex;
         flex-wrap: wrap;
@@ -99,6 +101,8 @@
 
     .recipe-video{
         width: 70%;
+        /* aspect-ratio: 16 / 9; per centrare tumbnail del video di youtube */
+        height: auto;
     }
 
     .recipe-info{
