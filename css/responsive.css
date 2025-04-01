@@ -34,7 +34,7 @@
     }
 
     .recipe-origin{
-        display: inline-block;
+        display: inline; /*display: inline-block; non serve sempre, poichè preferibile restituire all'elemento il proprio tipo di base*/
     }
 
     .recipe-name {
